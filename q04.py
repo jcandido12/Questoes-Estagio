@@ -7,10 +7,8 @@ faturamento = {
     "Outros": 19849.53
 }
 
-# Cálculo do faturamento total
 faturamento_total = sum(faturamento.values())
 
-# Exibição dos percentuais
 for estado, valor in faturamento.items():
     percentual = (valor / faturamento_total) * 100
     print(f"{estado}: {percentual:.2f}%")

@@ -1,4 +1,3 @@
-# Valores de faturamento por estado
 faturamento = {
     "SP": 67836.43,
     "RJ": 36678.66,
